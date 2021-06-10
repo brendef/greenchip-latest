@@ -1,9 +1,9 @@
-let propertytype;
-let cost;
-let inputcost;
-let min = true;
-let max = false;
-let avg = false;
+var propertytype = "";
+var cost;
+var inputcost;
+var min = true;
+var max = false;
+var avg = false;
 
 function setMin() {
   min = document.getElementById("formCheck-1").value;
@@ -22,6 +22,7 @@ function setAvg() {
 
   document.getElementById("formCheck-1").checked = false;
   document.getElementById("formCheck-3").checked = false;
+
   calculateCost();
 }
 function setMax() {
@@ -33,7 +34,6 @@ function setMax() {
   document.getElementById("formCheck-1").checked = false;
   calculateCost();
 }
-
 function onResidential() {
   document.getElementById("propertycategory-dropdown").innerHTML =
     "Residential";
@@ -89,7 +89,7 @@ function onRDP() {
   document.getElementById("lowbutton").classList.remove("d-none");
   document.getElementById("avgbutton").classList.remove("d-none");
   document.getElementById("maxbutton").classList.remove("d-none");
-
+  
   propertytype = "rdp";
   calculateCost();
 }
@@ -443,8 +443,8 @@ function coldStorage() {
   calculateCost();
 }
 
-function calculateCost() {
-  switch (propertytype) {
+function calculateCost(rtytype) {
+  // switch (propertytype) {
     case "rdp":
       if (min) {
         document.getElementById("formCheck-1").checked = true;

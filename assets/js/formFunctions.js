@@ -7,7 +7,7 @@ document
   .getElementById("propertyRiskServices")
   .addEventListener("click", () => {
     document.getElementById("subject-input").value =
-      "Property risk management services";
+      "Professional Services";
   });
 
 document.getElementById("qsServicesMore").addEventListener("click", () => {
@@ -19,7 +19,7 @@ document
   .getElementById("propertyRiskServicesMore")
   .addEventListener("click", () => {
     document.getElementById("subject-input").value =
-      "Property risk management services";
+      "Professional Services";
   });
 
 document.getElementById("quantity-surveying").addEventListener("click", () => {
@@ -29,7 +29,7 @@ document.getElementById("quantity-surveying").addEventListener("click", () => {
 
 document.getElementById("risk-management").addEventListener("click", () => {
   document.getElementById("subject-input").value =
-    "Property risk management services";
+    "Professional Services";
 });
 
 document.getElementById("other-enquiry").addEventListener("click", () => {
