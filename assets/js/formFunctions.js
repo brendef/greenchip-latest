@@ -10,17 +10,17 @@ document
       "Professional Services";
   });
 
-// document.getElementById("qsServicesMore").addEventListener("click", () => {
-//   document.getElementById("subject-input").value =
-//     "Quantity surveying services";
-// });
+document.getElementById("qsServicesMore").addEventListener("click", () => {
+  document.getElementById("subject-input").value =
+    "Quantity surveying services";
+});
 
-// document
-//   .getElementById("propertyRiskServicesMore")
-//   .addEventListener("click", () => {
-//     document.getElementById("subject-input").value =
-//       "Professional Services";
-//   });
+document
+  .getElementById("propertyRiskServicesMore")
+  .addEventListener("click", () => {
+    document.getElementById("subject-input").value =
+      "Professional Services";
+  });
 
 document.getElementById("quantity-surveying").addEventListener("click", () => {
   document.getElementById("subject-input").value =
