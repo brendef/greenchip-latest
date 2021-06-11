@@ -444,7 +444,7 @@ function coldStorage() {
 }
 
 function calculateCost(rtytype) {
-  // switch (propertytype) {
+  switch (propertytype) {
     case "rdp":
       if (min) {
         document.getElementById("formCheck-1").checked = true;
